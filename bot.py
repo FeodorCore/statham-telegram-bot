@@ -9,7 +9,7 @@ from handlers.callback_handlers import callback_router
 
 
 async def main():
-    logging.basicConfig(level=logging.INFO) # Настройка логирования
+    logging.basicConfig(level=logging.INFO) 
 
     bot = Bot(token=BOT_TOKEN)
     dp = Dispatcher()
