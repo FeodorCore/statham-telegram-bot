@@ -12,10 +12,6 @@ class UserModel:
     def save(self) -> str:
         return UserRepository.save_user(self)
 
-    def reg_time(self) -> str:
-        return UserRepository.registration_time(self.user_id)
-
-
 class UserRepository:
     DB_PATH = "DB/users.db"
 

@@ -4,6 +4,7 @@ bot_commands/__pycache__/
 Data/__pycache__/
 DB/__pycache__/
 keyboards/__pycache__/
+AI/__pycache__/
 venv/
 config.py
 DB/users.db
