@@ -26,7 +26,7 @@ async def start(message: Message):
         last_name=user_info.last_name,
         registr_time=message.date.isoformat()
     )
-    user_save = user.save()
+    user_save = await user.save()
     greet_list = quotes_data["greetings"]
 
     await message.answer(

@@ -11,8 +11,7 @@ from DB.user_model import UserRepository
 async def main():
     logging.basicConfig(level=logging.INFO) 
 
-    db_ini = UserRepository()
-    db_ini.initialize_db()
+    await UserRepository.initialize_db()
     bot = Bot(token=BOT_TOKEN)
     dp = Dispatcher()
 
