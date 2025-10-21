@@ -6,7 +6,7 @@ To install and run the bot, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/bot-for-generating-quotes.git
+git clone https://github.com/FeodorCore/statham-telegram-bot
 ```
 
 2. Install the required dependencies:
