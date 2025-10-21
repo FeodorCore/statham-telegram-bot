@@ -44,7 +44,7 @@ The bot uses the following APIs:
 
 Here’s how the bot looks in action:
 
-<img src="assets/screenshot.png" alt="Bot Screenshot" width="400"/>
+<img src="assets/Screenshot.png" alt="Bot Screenshot" width="400"/>
 
 ## 📁 Directory Hierarchy
 ```
